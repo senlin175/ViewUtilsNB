@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="文本1"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#50ff0000"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="文本2"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="#5000ff00"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn1"
+        android:text="btn1" />
+    
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn2"
+        android:onClick="btn2"
+        android:id="@+id/btn2"/>
+    
+    
+
+</LinearLayout>

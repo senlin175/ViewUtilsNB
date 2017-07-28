@@ -1,21 +1,14 @@
-# ViewUtilsNB
-这是一个ViewUtils的框架
+package com.itheima.day18.demo5;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 
-	案例:
-
-		package com.itheima.day18.demo5;
-		
-		import android.app.Activity;
-		import android.os.Bundle;
-		import android.view.View;
-		import android.widget.TextView;
-		import android.widget.Toast;
-		
-		
-		
-		public class MainActivity extends Activity {
+public class MainActivity extends Activity {
 
 	@ViewInject(R.id.tv1)
 	private TextView tv1;
@@ -46,4 +39,3 @@
 		}
 	}
 }
-
