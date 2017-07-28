@@ -20,6 +20,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		ViewUtilsTest.inject(this);
+
+		Log.d("MainActivity","fix a bug ,no thanks");
 	}
 	
 	@Onclick({R.id.btn1,R.id.btn2})
